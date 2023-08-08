@@ -1,0 +1,36 @@
+Step1: 1)use "mkdir" to make new directory "alaa mohamed"
+       2)use "ls" to sure the directory created
+       3)use "cd" to go "alaa mohamed" directory
+
+Step2: 1)use "mkdir" to make new directory "Documents"
+       2)use "cd" to go "Documents" directory
+       3)use "touch" to make three files
+       4)use "ls" to show the files
+
+Step3: 1)use "cd .." to go back
+       2)to make hidden file use "." before name of file and use "touch" 
+       3)use option "-a" with command "ls" to show hidden files
+
+Step4: 1)use "cd" to go "Documents" directory
+       2)use "nano" to write my message in file and press clt+s+x to exist edit file screen
+       3)use "cat" with file name to show the massege that in file
+
+Step5: I am at "Documents" already
+
+Step6: 1)use "mkdir" and named it "-"
+       2)write ./- after "cd" to go "-" directory
+       
+Step7: 1)use "cd ../.." to go the main directory "alaa mohamed"
+       2)use "cp -r" to copy "Documents" directory to new one and use "-r" for copy directory and all in it
+       3)use "ls" command to sure the directory is copied
+
+Step8: 1)use "nano" command to write in ".hidden_file"
+       2)use "cat" commend to show data in the ".hidden_file"
+
+Step9: 1)go to "Documents" by "cd" commend
+       2)use "mv    ../" to move files back at "alaa mohamed" directory
+
+Step10: 1)use option ~ with "cd" command to back home
+        2)use "rm" command to remove the directory "alaa mohamed" with -r option to delete all files and directories in it
+        3)use "ls" to make sure that is deleted
+

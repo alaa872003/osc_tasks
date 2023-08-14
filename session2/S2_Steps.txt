@@ -1,0 +1,28 @@
+Step1: 1)go to "Download" directory by cd command
+       2)extruct "Updated-task-02.zip" by using "unzip" command
+
+Step2: 1)go to "Updated-task-02" by cd
+       2)use ls to show the directory's content
+       3)use cat command to show the data in "README.txt" file
+       4)use ls command with -a optian to show the hidden file
+       5)use tar command with xf options to extruct the archive
+
+Step3: 1)go to ".level-1" by cd command
+       2)use ls command to show directory's content
+       3)use cat command to show the content in "README.txt" file
+       4)use file command to know to type of file
+       5)use tar with -xf option to decompress the "level-2" 
+ 
+Step4: 1)go to "level-2" by cd command
+       2)use ls command to show directory's content
+       3)use cat command to show the content in "README.txt" file
+       4)use find command with -name option for search the "level-3"
+       5)use file command to know to type of file
+   
+Step5: 1)go to "level-3" by cd command
+       2)use ls command to show directory's content
+       3)use cat command to show the content in "README.txt" file
+       4)use ls with -li optian to show the data of files to reach the link
+       5)use cat to show data in the source file
+       6)search about file by using find with option -size
+       7)open the file by cat and use the path

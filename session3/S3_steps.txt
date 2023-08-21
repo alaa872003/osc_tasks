@@ -1,0 +1,26 @@
+Step1: 1)use useradd command to add a new user
+       2)use groupadd command to add a new group
+       3)use usermod command with -aG options to add "osc" user to "osc_group" group
+       4)use visudo command to Grant sudo privileges to the "osc" user by write in it(osc    ALL=(ALL:ALL) ALL)
+       5)use su command to switch user
+       6)use whoami to be sure in "osc" user
+
+Step2: 1)use cd command to go to home
+       2)use mkdir command to make "permission_practice" and use cd to be inside
+       3)use touch to make three file "public_file.txt" "private_file.txt" "executable_script.sh"
+       4)use chmod by a=rw to make owner,group, other have read and write permissions for public_file
+       5)private_file is already done
+       6)use chmod by u+x to make owner have execute permissions for executable_script
+       7)use chmod by g+w to make group have write permissions for executable_script
+
+Step3: 1)use chown to change private_file from osc user to alaa user
+       2)use chgrp to change private_file  to osc_group
+
+Step4: 1)write sleep 1000 command
+       2)use ps command with -f option to have PID 
+       3)use kill command by using PID
+       4)install vim by sudo apt install vim
+       5)killall vim to sure all stop running
+
+Step5: 1)use sudo apt install to install the pakage
+       2)use sudo apt remove to remove the pakage
